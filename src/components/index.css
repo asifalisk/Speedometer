@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image{
+    width:60%;
+}
+
+.btn{
+    margin: 20px 0;
+}
+
+.accelerate{
+    background-color: royalblue;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.break{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+    .container{
+        width: 575px;
+    }
+}
+
